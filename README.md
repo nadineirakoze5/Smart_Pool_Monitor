@@ -7,6 +7,7 @@ A Laravel-based web application that enables admins to monitor swimmers in real-
 ## 🚀 Features
 
 ### 👨‍💻 Admin Panel
+![Admin page](resources/public/assets/admin.png)
 - View dashboard with stats (active swimmers, alerts, devices)
 - Manage swimmer health data (CRUD)
 - Search/filter swimmers by name or status
@@ -14,14 +15,23 @@ A Laravel-based web application that enables admins to monitor swimmers in real-
 - Responsive sidebar with navigation
 
 ### 🏊 User Dashboard
+![User page](resources/public/assets/User.png)
 - View personal swimmer stats
 - Get notified of alerts
 - Mobile-friendly layout with collapsible sidebar
 
 ### 🔐 Authentication
-- Register/Login
+-Register Page
+
+![Register](resources/public/assets/register.png)
+
+- Login Page
+
+![Home page](resources/public/assets/login.png)
+
 - Role-based access (admin/user)
 - Forgot password & reset via email (Mailtrap)
+![Forgot page](resources/public/assets/forgot.png)
 
 ---
 
@@ -38,7 +48,7 @@ A Laravel-based web application that enables admins to monitor swimmers in real-
 
 ### 📦 Clone & Install
 ```bash
-git clone https://github.com/your-username/smart-pool-monitor.git
+git clone https://github.com/nadineirakoze5/Smart_Pool_Monitor.git
 cd smart-pool-monitor
 composer install
 cp .env.example .env
